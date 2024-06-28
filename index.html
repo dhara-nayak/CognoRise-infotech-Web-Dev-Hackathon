@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FITNESS FORUM GYM</h1>
+        <nav>
+            <ul>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#timings">Timings</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#gears">Gym Gears</a></li>
+                <li><a href="#nutrition">Nutrition & Supplements</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="registration">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <input type="submit" value="Register">
+        </form>
+        <p id="successMessage" style="display:none;">Registration successful! We will contact you soon.</p>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <ul>
+            <li>Monthly package - 1499/Month</li>
+            <li>Basic Package - 10000/Year</li>
+            <li>Standard Package - 20000/Year</li>
+            <li>Premium Package - 30000/Year</li>
+        </ul>
+    </section>
+
+    <section id="timings">
+        <h2>Gym Timings</h2>
+        <ul>
+            <li>Monday to Friday: 6 AM - 10 PM</li>
+            <li>Saturday: 8 AM - 8 PM</li>
+            <li>Sunday: 8 AM - 6 PM</li>
+        </ul>
+    </section>
+
+    <section id="offers">
+        <h2>Current Offers</h2>
+        <p>Early Bird Special: Offer a dicounted  membership rate to members who workout during off-peak hours.</p>
+        <p>Free Trial Period: Allow potential members to try out your gym free of charge for a certain period.</p>
+        <p>Family Add-On Discount: Offer a special rate for family members added onto a regular membership.</p>
+        <p>Access Pass: Provide a day pass for potential members to explore gym anytime within a 16-17 hours period.</p>
+        <p>Free Personal Training Session: Offer a complimentary personal training session to new members.</p>
+        <p>Social Media Check-In: Offer small incentives for members who check-in at your gym on social media.</p>
+    </section>
+
+    <section id="gears">
+        <h2>Gym Equipments</h2>
+        <ul>
+            <li>Treadmills</li>
+            <li>Dumbbells</li>
+            <li>Stationary Bikes</li>
+            <li>Dipping bras</li>
+            <li>kettlebelles</li>
+            <li>Battle ropes</li>
+            <li>Ab Rollar</li>
+            <li>Standing Abductor</li>
+            <li>Leg Extension Machine</li>
+            <li>Weight Machines</li>
+        </ul>
+    </section>
+
+    <section id="nutrition">
+        <h2>Nutrition & Supplements</h2>
+        <ul>
+            <li>Protein Powders</li>
+            <li>Vitamins</li>
+            <li>Energy Bars</li>
+            <li>Hydration Drinks</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 XYZ Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
